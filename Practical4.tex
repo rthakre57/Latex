@@ -1,0 +1,128 @@
+%Preparing question Paper for examination in latex
+\documentclass[a4paper,12pt]{article}   % Document class and font size
+\usepackage[utf8]{inputenc}              % Encoding for input
+\usepackage{amsmath}                     % Math package for equations
+\usepackage{graphicx}                    % For including images
+\graphicspath{{C:/Users/rosha/OneDrive/Desktop/}{C:/Users/rosha/OneDrive/Desktop/}}
+\usepackage{enumitem}                    % Customizing lists
+\usepackage{hyperref}                    % Hyperlinks (optional)
+\usepackage{multicol}                    % For multiple columns layout
+\usepackage{fancyhdr}                    % For header and footer
+
+% Page layout settings
+\usepackage{geometry}
+\geometry{a4paper, margin=1in}
+
+% Set the header and footer style
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\textbf{Name of the Institution}}  % Left header
+\fancyhead[C]{\textbf{Examination Question Paper}} % Center header
+\fancyhead[R]{\textbf{Subject: XYZ}}            % Right header
+\fancyfoot[C]{\thepage}                         % Footer with page number
+
+% Title information
+\title{Mid-term Examination \\ Subject: XYZ \\ Class: 12 \\ Time: 3 Hours}
+\author{Instructor: Your Name}
+\date{\today}
+
+\begin{document}
+	
+	\maketitle                                     % Creates the title
+	
+	\noindent\textbf{Instructions:}
+	\begin{itemize}
+		\item The exam consists of 5 sections.
+		\item Answer all questions in each section.
+		\item Use separate sheets for rough work.
+		\item Total marks: 100.
+	\end{itemize}
+	
+	% Section 1: Multiple Choice Questions (MCQs)
+	\section*{Section 1: Multiple Choice Questions (20 marks)}
+	\noindent\textbf{Answer all questions. Each question carries 1 mark.}
+	
+	\begin{enumerate}
+		\item Which of the following is the correct formula for calculating the area of a circle?
+		\begin{enumerate}[label=(\alph*)]
+			\item \(A = 2\pi r\)
+			\item \(A = \pi r^2\)
+			\item \(A = \frac{1}{2}\pi r^2\)
+			\item \(A = \pi d^2\)
+		\end{enumerate}
+		
+		\item Which data structure follows the First-In-First-Out (FIFO) principle?
+		\begin{enumerate}[label=(\alph*)]
+			\item Stack
+			\item Queue
+			\item Array
+			\item Tree
+		\end{enumerate}
+		
+		\item What is the value of \( \int_0^1 x^2 \, dx \)?
+		\begin{enumerate}[label=(\alph*)]
+			\item \( \frac{1}{3} \)
+			\item \( \frac{1}{2} \)
+			\item \( 1 \)
+			\item \( 0 \)
+		\end{enumerate}
+	\end{enumerate}
+	
+	\vspace{0.5cm}
+	
+	% Section 2: Short Answer Questions
+	\section*{Section 2: Short Answer Questions (30 marks)}
+	\noindent\textbf{Answer all questions. Each question carries 5 marks.}
+	
+	\begin{enumerate}
+		\item Describe the difference between RAM and ROM.
+		\item Explain the working of a binary search algorithm.
+		\item Define and give an example of a recursive function.
+		\item Differentiate between TCP and UDP.
+		\item Explain the laws of thermodynamics briefly.
+	\end{enumerate}
+	
+	\vspace{0.5cm}
+	
+	% Section 3: Long Answer Questions
+	\section*{Section 3: Long Answer Questions (30 marks)}
+	\noindent\textbf{Answer any 3 questions. Each question carries 10 marks.}
+	
+	\begin{enumerate}
+		\item Describe the architecture of the OSI model in detail.
+		\item Solve the differential equation: \( \frac{dy}{dx} + 2xy = 0 \).
+		\item Discuss the impact of Artificial Intelligence on modern industries.
+		\item Write an essay on the ethical considerations of data privacy.
+	\end{enumerate}
+	
+	\vspace{0.5cm}
+	
+	% Section 4: Numerical Problems
+	\section*{Section 4: Numerical Problems (20 marks)}
+	\noindent\textbf{Solve any 2 problems. Each problem carries 10 marks.}
+	
+	\begin{enumerate}
+		\item Find the area under the curve for \(f(x) = x^3\) between \(x = 0\) and \(x = 2\).
+		\item A car accelerates from rest with an acceleration of 3 m/s\(^2\). How far does it travel in 10 seconds?
+		\item Solve for \(x\) in the quadratic equation \(x^2 - 5x + 6 = 0\).
+	\end{enumerate}
+	
+	\vspace{0.5cm}
+	
+	% Section 5: Diagram-based Questions
+	\section*{Section 5: Diagram-based Questions (Optional)}
+	\noindent\textbf{Answer the following questions based on the diagram provided.}
+	
+	\begin{enumerate}
+		\item Label the parts of the neuron structure in the diagram below and explain their functions.
+		\begin{center}
+			\includegraphics[width=0.5\textwidth]{photo1.png}  % Add image
+		\end{center}
+		
+		\item Identify the components of the circuit diagram provided below.
+		\begin{center}
+			\includegraphics[width=0.5\textwidth]{photo2.png}  % Add image
+		\end{center}
+	\end{enumerate}
+	
+\end{document}
